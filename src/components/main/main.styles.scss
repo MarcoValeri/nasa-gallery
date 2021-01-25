@@ -1,0 +1,35 @@
+.main-container {
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin: 10rem auto;
+    text-align: center;
+}
+
+.main-container > h2 {
+    flex: 0 0 100%;
+    font-size: 8rem;
+
+    background-image: linear-gradient(to right, #e8985e, #F7EBE8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.main-container-media {
+    width: 35vw;
+    min-width: 50rem;
+    height: auto;
+    padding: 1rem;
+    margin: 5rem;
+    font-size: 2rem;
+    color: #f7ebe8;
+}
+
+.main-container-media img {
+    width: 90%;
+    border-radius: 50%;
+}

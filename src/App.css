@@ -1,0 +1,74 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+nav {
+  font-family: 'Anton', sans-serif;
+}
+
+footer {
+  font-family: 'Anton', sans-serif;
+}
+
+@media (max-width: 1024px) {
+
+  html {
+    font-size: 50%;
+  }
+
+  nav {
+    font-size: 5rem;
+  }
+
+  input[type="submit"] {
+    font-size: 4rem;
+  }
+
+  input[type="text"] {
+    height: 4rem;
+    font-size: 3rem;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  html {
+    font-size:45%;
+  }
+
+  .main-container-media {
+    min-width: 40rem;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  html {
+    font-size: 40%;
+  }
+
+  nav li {
+    margin: 0rem 5rem 0rem 0rem;
+    padding: 2rem;
+  }
+
+}
+
+@media (max-width: 240px) {
+
+  html {
+    font-size: 30%;
+  }
+
+  footer {
+    font-size: 3rem;
+  }
+
+}

@@ -1,0 +1,21 @@
+nav {
+    font-size: 3rem;
+    text-align: center;
+
+    li {
+        display: inline;
+        list-style-type: none;
+        padding: 2rem;
+        margin: 4rem;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        &:hover {
+            border-bottom: 1px solid #fff;
+        }
+    }
+
+}

@@ -1,0 +1,27 @@
+Title
+Nasa Gallery
+
+Description
+Nasa Gallery is a website that has the goal to show the amazing images that NASA has took around the space.
+The website is structured in three pages:
+ - Home
+ - Gallery
+ - Video
+In that page the user can search the images of the NASA.
+NASA Gallery works with the APIs of official NASA.
+
+API
+https://api.nasa.gov/index.html
+https://images.nasa.gov/docs/images.nasa.gov_api_docs.pdf
+
+Technologies
+HTML5
+CSS3
+SASS
+JavaScript
+REACT
+JSX
+
+Images reference:
+blackMoon.jpg Photo by Mathew Schwartz on Unsplash
+moonDarkness Photo by Matthew N on Unsplash
